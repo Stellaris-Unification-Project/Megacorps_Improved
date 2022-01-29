@@ -1,0 +1,15 @@
+﻿l_english:
+ #franchise cost
+ 
+ tech_eficient_franchises:0 "Eficient Franchises"
+ tech_eficient_franchises_desc:0 "New management techniques reduce the cost of creating new franchises"
+ tech_unlock_eficient_franchises:0 "Eficient Franchises"
+ tech_unlock_eficient_franchises_desc:0 "franchise cost reduction: -20%"
+ tech_small_stores:0 "Small Stores"
+ tech_small_stores_desc:0 "Making the stores smaller and more accesible to the general population reduces even more the cost of new franchises"
+ 
+ #franchise production
+ tech_franchise_production:0 "Franchise Production"
+ tech_franchise_production_desc:0 "Caring for your customers and workers is the key to increased production"
+ tech_customer_service:0 "Customer Service"
+ tech_customer_service_desc:0 "Caring for your customers and workers is the key to increased production"

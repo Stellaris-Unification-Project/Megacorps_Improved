@@ -1,0 +1,6 @@
+	NGameplay = {
+
+		POPS_BRANCH_OFFICE_BUILDING_SLOTS		 = 15 	# The amount of pops needed to unlock a new branch office building slot
+		BASE_PLANET_BRANCH_OFFICE_BUILDING_SLOTS = 0
+		MAX_PLANET_BRANCH_OFFICE_BUILDING_SLOTS	 = 6
+	}

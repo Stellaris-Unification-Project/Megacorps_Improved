@@ -1,0 +1,73 @@
+# Eficient-franchising
+tech_eficient_franchises = {
+	cost = @tier2cost1
+	area = society
+	tier = 2
+	category = { statecraft }
+	weight = @tier2weight1
+
+	potential = {
+		is_megacorp = yes
+	}
+
+	modifier = {
+		planet_branch_offices_cost_mult	 = -0.2
+	}
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_statecraft"
+			}
+		}
+	}
+	
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_statecraft"
+			}
+		}
+	}
+}
+
+tech_small_stores = {
+	cost = @tier3cost1
+	area = society
+	tier = 3
+	category = { statecraft }
+	weight = @tier3weight1
+	prerequisites = { "tech_eficient_franchises" }
+
+	potential = {
+		is_megacorp = yes
+	}
+
+	modifier = {
+		planet_branch_offices_cost_mult	 = -0.2
+	}
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_statecraft"
+			}
+		}
+	}
+	
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_statecraft"
+			}
+		}
+	}
+}
