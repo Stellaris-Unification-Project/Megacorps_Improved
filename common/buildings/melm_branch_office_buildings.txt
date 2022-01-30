@@ -10,7 +10,7 @@ building_private_mining_consortium = {
 		has_branch_office = yes
 		branch_office_owner = {
 			is_criminal_syndicate = no
-			NOT = { is_ai = yes }
+			is_ai = no
 		}
 		habitable_structure = no
 		NOR = {
@@ -55,7 +55,7 @@ building_private_mining_consortium_2 = {
 		has_branch_office = yes
 		branch_office_owner = {
 			is_criminal_syndicate = no
-			NOT = { is_ai = yes }
+			is_ai = no
 		}
 		habitable_structure = no
 		NOR = {
@@ -103,7 +103,7 @@ building_private_mining_consortium_3 = {
 		has_branch_office = yes
 		branch_office_owner = {
 			is_criminal_syndicate = no
-			NOT = { is_ai = yes }
+			is_ai = no
 		}
 		habitable_structure = no
 		NOR = {
@@ -150,7 +150,7 @@ building_food_conglomerate = {
 		has_branch_office = yes
 		branch_office_owner = {
 			is_criminal_syndicate = no
-			NOT = { is_ai = yes }
+			is_ai = no
 		}
 		NOR = {
 			is_planet_class = pc_hive
@@ -193,7 +193,7 @@ building_food_conglomerate_2 = {
 		has_branch_office = yes
 		branch_office_owner = {
 			is_criminal_syndicate = no
-			NOT = { is_ai = yes }
+			is_ai = no
 		}
 		NOR = {
 			is_planet_class = pc_hive
@@ -240,7 +240,7 @@ building_food_conglomerate_3 = {
 		has_branch_office = yes
 		branch_office_owner = {
 			is_criminal_syndicate = no
-			NOT = { is_ai = yes }
+			is_ai = no
 		}
 		NOR = {
 			is_planet_class = pc_hive
@@ -452,7 +452,7 @@ building_private_shipyards = {
 		has_branch_office = yes
 		branch_office_owner = {
 			is_criminal_syndicate = no
-			NOT = { is_ai = yes }
+			is_ai = no
 		}
 	}
 
@@ -489,7 +489,7 @@ building_private_shipyards_2 = {
 		has_branch_office = yes
 		branch_office_owner = {
 			is_criminal_syndicate = no
-			NOT = { is_ai = yes }
+			is_ai = no
 		}
 	}
 
@@ -530,7 +530,7 @@ building_private_shipyards_3 = {
 		has_branch_office = yes
 		branch_office_owner = {
 			is_criminal_syndicate = no
-			NOT = { is_ai = yes }
+			is_ai = no
 		}
 	}
 
@@ -570,7 +570,7 @@ building_military_contractors = {
 		has_branch_office = yes
 		branch_office_owner = {
 			is_criminal_syndicate = no
-			NOT = { is_ai = yes }
+			is_ai = no
 		}
 	}
 
@@ -1072,7 +1072,7 @@ building_wildcat_miners = {
 		has_branch_office = yes
 		branch_office_owner = {
 			is_criminal_syndicate = yes
-			NOT = { is_ai = yes }
+			is_ai = no
 		}
 		habitable_structure = no
 		NOR = {
@@ -1116,7 +1116,7 @@ building_wildcat_miners_2 = {
 		has_branch_office = yes
 		branch_office_owner = {
 			is_criminal_syndicate = yes
-			NOT = { is_ai = yes }
+			is_ai = no
 		}
 		habitable_structure = no
 		NOR = {
@@ -1164,7 +1164,7 @@ building_wildcat_miners_3 = {
 		has_branch_office = yes
 		branch_office_owner = {
 			is_criminal_syndicate = yes
-			NOT = { is_ai = yes }
+			is_ai = no
 		}
 		habitable_structure = no
 		NOR = {
@@ -1211,7 +1211,7 @@ building_bio_reprocessing_facilities = {
 		has_branch_office = yes
 		branch_office_owner = {
 			is_criminal_syndicate = yes
-			NOT = { is_ai = yes }
+			is_ai = no
 		}
 		NOR = {
 			is_planet_class = pc_hive
@@ -1255,7 +1255,7 @@ building_bio_reprocessing_facilities_2 = {
 		has_branch_office = yes
 		branch_office_owner = {
 			is_criminal_syndicate = yes
-			NOT = { is_ai = yes }
+			is_ai = no
 		}
 		NOR = {
 			is_planet_class = pc_hive
@@ -1304,7 +1304,7 @@ building_bio_reprocessing_facilities_3 = {
 		has_branch_office = yes
 		branch_office_owner = {
 			is_criminal_syndicate = yes
-			NOT = { is_ai = yes }
+			is_ai = no
 		}
 		NOR = {
 			is_planet_class = pc_hive
@@ -1518,7 +1518,7 @@ building_wrecking_yards = {
 		has_branch_office = yes
 		branch_office_owner = {
 			is_criminal_syndicate = yes
-			NOT = { is_ai = yes }
+			is_ai = no
 		}
 	}
 
@@ -1557,7 +1557,7 @@ building_wrecking_yards_2 = {
 		has_branch_office = yes
 		branch_office_owner = {
 			is_criminal_syndicate = yes
-			NOT = { is_ai = yes }
+			is_ai = no
 		}
 	}
 
@@ -1600,7 +1600,7 @@ building_wrecking_yards_3 = {
 		has_branch_office = yes
 		branch_office_owner = {
 			is_criminal_syndicate = yes
-			NOT = { is_ai = yes }
+			is_ai = no
 		}
 	}
 
@@ -1641,7 +1641,7 @@ building_pirate_haven = {
 		has_branch_office = yes
 		branch_office_owner = {
 			is_criminal_syndicate = yes
-			NOT = { is_ai = yes }
+			is_ai = no
 		}
 	}
 
@@ -2218,7 +2218,7 @@ building_executive_retreat = {
 	potential = {
 		has_branch_office = yes
 		branch_office_owner = {
-			NOT = { is_ai = yes }
+			is_ai = no
 		}
 	}
 
@@ -2262,7 +2262,7 @@ building_xeno_tourism_agency = {
 	potential = {
 		has_branch_office = yes
 		branch_office_owner = {
-			NOT = { is_ai = yes }
+			is_ai = no
 		}
 	}
 
